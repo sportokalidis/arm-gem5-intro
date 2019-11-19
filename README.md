@@ -116,7 +116,22 @@ happens instantaneously. Additionally, functional accesses can coexist in the me
 accesses. Therefore, functional accesses are suitable for loading binaries and debugging.<br/>
 **Timing access** is the most realistic access method and is used for approximately-timed simulation, which considers
 the realistic timing, and models the queuing delay and resource contention. Timing and Atomic accesses cannot
-coexist in the system.<br/>
+coexist in the system.<br/><br/><br/>
+
+#### AtomicSimpleCPU
+The *AtomicSimpleCPU* uses Atomic memory accesses. In gem5, the AtomicSimpleCPU performs all
+operations for an instruction on every CPU tick() and it can get a rough estimation of overall cache access time using the
+latency estimates from the atomic accesses. The AtomicSimpleCPU is derived from BaseSimpleCPU, and implements functions to read and write memory, and also to tick, which defines what happens every CPU cycle. It defines the port that is used to hook up to memory, and connects the CPU to the cache. Naturally, AtomicSimpleCPU provides the fastest functional simulation, and
+is used for fast-forwarding to get to a Region Of Interest (ROI) in gem5.
+
+#### TimingSimpleCPU
+The TimingSimpleCPU adopted Timing memory access instead of the simple Atomic one.  Like the AtomicSimpleCPU, the TimingSimpleCPU is also derived from BaseSimpleCPU, and implements the same set of functions. It defines the port that is used to hook up to memory, and connects the CPU to the cache. It also defines the necessary functions for handling the response from memory to the accesses sent out. TimingSimpleCPU is also a fast-to-run model, since it simplifies some aspects including pipelining, which means that only a single instruction is being processed at any time.  Each arithmetic instruction is executed by TimingSimpleCPU in a single cycle, while memory accesses require multiple cycles.
+
+#### MinorCPU
+Minor is an in-order processor model with a fixed pipeline but configurable data structures and execute behaviour. It is intended to be used to model processors with strict in-order execution behaviour and allows visualisation of an instruction's position in the pipeline. The intention is to provide a framework for micro-architecturally correlating the model with a particular, chosen processor with similar capabilities. MinorCPU has a fixed four-stage in-order execution pipeline, while having configurable data structures and execute behavior; therefore it can be configured at the micro-architecture level to model a specific processor. The four-stage pipeline implemented by MinorCPU includes fetching lines, decomposition into macro-ops, decomposition of macro-ops into micro-ops and execute. These stages are named Fetch1, Fetch2, Decode and Execute, respectively. The pipeline class controls the cyclic tick event and the idling (cycle skipping).<br/>
+More about MinorCPU and pipeline stages [here](http://www.gem5.org/docs/html/minor.html).
+
+
 
 
 
