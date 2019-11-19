@@ -1,5 +1,6 @@
 # ARM-gem5-Intro
-1st project for computer architecture lab
+1st project for computer architecture lab<br/>
+<img src=gem5_image.png width=900 height=400/>
 
 ## Answers to questions
 ### _1. starter_se.py simulation script_
