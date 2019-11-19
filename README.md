@@ -37,34 +37,34 @@ in **_main_** function (lines: 187-208):
     args = parser.parse_args()
 ```
 
-starter_se.py defines default **cpu** and **memory** parameters, however user can puts these parameters as arguments in run command
+[starter_se.py]() defines default **cpu** and **memory** parameters, however user can puts these parameters as arguments in run command
 ###### NOTE: in simple SE run command we define cpu model as Minor *(--cpu="Minor")* <br/><br/>
 several **cpu models** define in lines 69-79 in this map data stucture:
 ```python
-cpu_types = {
-    "atomic" : ( AtomicSimpleCPU, None, None, None, None),
-    "minor" : (MinorCPU,
-               devices.L1I, devices.L1D,
-               devices.WalkCache,
-               devices.L2),
-    "hpi" : ( HPI.HPI,
-              HPI.HPI_ICache, HPI.HPI_DCache,
-              HPI.HPI_WalkCache,
-              HPI.HPI_L2)
-}
+    cpu_types = {
+        "atomic" : ( AtomicSimpleCPU, None, None, None, None),
+        "minor" : (MinorCPU,
+                   devices.L1I, devices.L1D,
+                   devices.WalkCache,
+                   devices.L2),
+        "hpi" : ( HPI.HPI,
+                  HPI.HPI_ICache, HPI.HPI_DCache,
+                  HPI.HPI_WalkCache,
+                  HPI.HPI_L2)
+    }
 ```
 
 
 In addition, in class ***SimpleSeSystem*** (lines: 82-141):<br/>
 in line 88, define **cache lin size**
 ```python
-# Use a fixed cache line size of 64 bytes
-cache_line_size = 64
+    # Use a fixed cache line size of 64 bytes
+    cache_line_size = 64
 ```
 in lines 99-100, defines **voltage** and **clock**
 ```python
-self.voltage_domain = VoltageDomain(voltage="3.3V")
-self.clk_domain = SrcClockDomain(clock="1GHz",voltage_domain=self.voltage_domain)
+    self.voltage_domain = VoltageDomain(voltage="3.3V")
+    self.clk_domain = SrcClockDomain(clock="1GHz",voltage_domain=self.voltage_domain)
 ```
 
 ---
