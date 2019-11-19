@@ -103,6 +103,6 @@ the next instruction after executing the current one, with no instruction pipeli
 are more realistic and certainly more time-consuming to simulate.
 Here we introduce two models derived from BaseSimpleCPU, namely **AtomicSimpleCPU** and **TimingSimpleCPU**.<br/><br/>
 
-<img src=gem5-logo.png width=900 height=600/>
+<img src="in-order CPUs models.png" width=500 height=300/>
 
 ---
