@@ -3,8 +3,8 @@
 
 ## Answers to questions
 ### _1. starter_se.py simulation script_
-##### SE Simulation
-###### Run a simple SE
+#### SE Simulation
+##### Run a simple SE
 ```console
 $ ./build/ARM/gem5.opt -d hello_result configs/example/arm/starter_se.py --cpu="minor" "tests/test-progs/hello/bin/arm/linux/hello"
 ```
@@ -69,6 +69,25 @@ in lines 99-100, defines **voltage** and **clock**
 
 ---
 ### _2. Verification of simulation configs_
+#### gem5 output:
+***config.ini:*** Dumps all of the parameters of all SimObjects (modules). This shows exactly what you simulated<br/>
+***config.json:*** Same as config.ini, but in json format.<br/>
+***stats.txt:*** Detailed statistic output. Each SimObject defines and updates statistics. They are printed here at the end of               semulation<br/><br/>
+By default, the output send this three files in **m5out** file. In our command, we send the output files in **hello_result** file (this accepted with the flag **-d path** in run command)
+
+#### Verification of first part answer
+[stats.txt]()<br/>
+[config.ini]()<br/>
+[stats.json]()<br/><br/>
+
+In file ***config.ini:***<br/>
+    line 67: `type=MinorCPU`
+    line 60: `clock=250`
+    line 15: `cache_line_size=64`
+    line 25: `mem_ranges=0:2147483647`
+
+
+
 ---
 
 
