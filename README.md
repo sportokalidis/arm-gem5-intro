@@ -105,4 +105,24 @@ Here we introduce two models derived from BaseSimpleCPU, namely **AtomicSimpleCP
 
 <img src="in-order CPUs models.png" width=500 height=300/>
 
+#### Memory Access
+CPU models depend on memory access and there are three types of access supported in gem5, namely **timing**, **atomic** and
+**functional** methods.<br/><br/>
+
+**Atomic access** is the fastest of the three, and completes a transaction in a single function call. It models state changes (cache fills, coherence) and calculates the approximate latency without contention or queuing delay, making it suitable
+for loosely-timed simulation (fast-forwarding) or warming caches.<br/>
+**Functional access** is similar to Atomic access in that it completes a transaction in a single function call and the access
+happens instantaneously. Additionally, functional accesses can coexist in the memory system with Atomic or Timing
+accesses. Therefore, functional accesses are suitable for loading binaries and debugging.<br/>
+**Timing access** is the most realistic access method and is used for approximately-timed simulation, which considers
+the realistic timing, and models the queuing delay and resource contention. Timing and Atomic accesses cannot
+coexist in the system.<br/>
+
+
+
+
+ 
+
+
+
 ---
