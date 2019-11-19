@@ -81,11 +81,12 @@ By default, the output send this three files in **m5out** file. In our command, 
 [stats.json]()<br/><br/>
 
 In file ***config.ini:***<br/>
-    line 67: `type=MinorCPU`
-    line 60: `clock=250`
-    line 15: `cache_line_size=64`
-    line 25: `mem_ranges=0:2147483647`
-
+    
+  **->** line 67: `type=MinorCPU` (CPU model)<br/>
+  **->** line 60: `clock=250` (CPU frequency in pico seconds)<br/>
+  **->** line 15: `cache_line_size=64`(cache) <br/>
+  **->** line 25: `mem_ranges=0:2147483647`(memory size 2GB)<br/>
+       
 
 
 ---
