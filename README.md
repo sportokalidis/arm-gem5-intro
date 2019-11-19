@@ -84,14 +84,25 @@ By default, the output send this three files in **m5out** file. In our command, 
 In file ***config.ini:***<br/>
     
   **->** line 67: `type=MinorCPU` (CPU model)<br/>
-  **->** line 60: `clock=250` (CPU frequency in pico seconds)<br/>
+  **->** line 60: `clock=250` (CPU period in pico seconds)<br/>
   **->** line 15: `cache_line_size=64`(cache) <br/>
   **->** line 25: `mem_ranges=0:2147483647`(memory size 2GB)<br/>
-       
+  **->** line 46: `clock=1000` (system clock period in ticks)     
 
 
 ---
 
 
-### _3. In-Order CPUs models_
+### _3. In-Order CPUs models_ <br/>
+Gem5 provides different CPU models which suit different requirements, namely **simple CPUs**, detailed **in-order CPUs**,
+detailed **out-of-order CPUs**, and **KVM-based CPUs**. In this section, we focus on the in-order CPU models provided in
+gem5. We start with the simplified CPU models and the MinorCPU, which is a more realistic in-order CPU model.
+The simplified CPU models are functional *in-order models* for **fast simulation**, while some of the details are ignored.
+These models can be used for **simple tests**, or for **fast-forwarding** to the regions of interest during a simulation. The base class for the simplified CPU models is named **BaseSimpleCPU**, which defines basic functions for handling interrupts, fetch requests, pre-execute setup and post-execute actions. Since it implements a simplified CPU model, it simply advances to
+the next instruction after executing the current one, with no instruction pipelining. In contrast, the detailed CPU models
+are more realistic and certainly more time-consuming to simulate.
+Here we introduce two models derived from BaseSimpleCPU, namely **AtomicSimpleCPU** and **TimingSimpleCPU**.<br/><br/>
+
+<img src=gem5-logo.png width=900 height=600/>
+
 ---
