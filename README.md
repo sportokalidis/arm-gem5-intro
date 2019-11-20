@@ -177,7 +177,7 @@ More stats about part 2 [here](https://github.com/sportokalidis/arm-gem5-intro/t
 
 <br/><br/>
 
-Both in part2 and part3 the differecne between two models is located in **num of cicles**. MinorCPU model is faster because of a better iplementation of pipeline.
+In part2 and part3 the differecne between two models is located in **num of cicles**. MinorCPU model is faster because of a better iplementation of pipeline.
 
 
 
