@@ -10,7 +10,7 @@
 $ ./build/ARM/gem5.opt -d hello_result configs/example/arm/starter_se.py --cpu="minor" "tests/test-progs/hello/bin/arm/linux/hello"
 ```
 
-[starter_se.py](): is a simulation python script which defines system parameters<br/><br/>
+[starter_se.py](https://github.com/sportokalidis/arm-gem5-intro/blob/master/part1/starter_se.py): is a simulation python script which defines system parameters<br/><br/>
 
 in **_main_** function (lines: 187-208):
 ```python
@@ -38,7 +38,7 @@ in **_main_** function (lines: 187-208):
     args = parser.parse_args()
 ```
 
-[starter_se.py]() defines default **cpu** and **memory** parameters, however user can puts these parameters as arguments in run command
+[starter_se.py](https://github.com/sportokalidis/arm-gem5-intro/blob/master/part1/starter_se.py) defines default **cpu** and **memory** parameters, however user can puts these parameters as arguments in run command
 ###### NOTE: in simple SE run command we define cpu model as Minor *(--cpu="Minor")* <br/><br/>
 several **cpu models** define in lines 69-79 in this map data stucture:
 ```python
