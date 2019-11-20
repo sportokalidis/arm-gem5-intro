@@ -149,6 +149,7 @@ More about MinorCPU and pipeline stages [here](http://www.gem5.org/docs/html/min
 |sim_insts|10747|10705|
 |sim_ops|12670|12589|
 |system.cpu.committedOps|12670|12589|
+|system.cpu.numCycles|63580|77972|
 
 <br/>
 
@@ -168,6 +169,7 @@ More stats about part 2 [here](https://github.com/sportokalidis/arm-gem5-intro/t
 |sim_insts|221608|10705|
 |sim_ops|12670|12589|
 |system.cpu.committedOps|12670|12589|
+|system.cpu.numCycles|61766|77750|
 
 <br/>
 
