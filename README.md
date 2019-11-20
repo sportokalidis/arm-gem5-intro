@@ -179,6 +179,9 @@ More stats about part 2 [here](https://github.com/sportokalidis/arm-gem5-intro/t
 
 In part2 and part3 the differecne between two models is located in **num of cicles**. MinorCPU model is faster because of a better iplementation of pipeline.
 
+### Part 4
+#### Comparison between MinorCPU model and TimingSimpleCPU model when cpu fequency is 3GHz 
+
 
 
 ---
