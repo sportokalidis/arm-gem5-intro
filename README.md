@@ -67,7 +67,7 @@ in lines 99-100, defines **voltage** and **clock**
     self.voltage_domain = VoltageDomain(voltage="3.3V")
     self.clk_domain = SrcClockDomain(clock="1GHz",voltage_domain=self.voltage_domain)
 ```
-
+449714
 ---
 ### _2. Verification of simulation configs_
 #### gem5 output:
@@ -188,10 +188,10 @@ In part2 and part3 the differecne between two models is located in **num of cicl
 
 
 ### SOURCES
-[1] http://www.gem5.org
-[2] https://github.com/arm-university/arm-gem5-rsk
-[3] http://gem5.org/SimpleCPU
-[4] http://gem5.org/Documentation
-[5] http://www.gem5.org/docs/html/minor.html
-[6] http://pages.cs.wisc.edu/~david/courses/cs752/Fall2015/gem5-tutorial/index.html
-[7] http://www.gem5.org/General_Memory_System
+[1] http://www.gem5.org<br/>
+[2] https://github.com/arm-university/arm-gem5-rsk<br/>
+[3] http://gem5.org/SimpleCPU<br/>
+[4] http://gem5.org/Documentation<br/>
+[5] http://www.gem5.org/docs/html/minor.html<br/>
+[6] http://pages.cs.wisc.edu/~david/courses/cs752/Fall2015/gem5-tutorial/index.html<br/>
+[7] http://www.gem5.org/General_Memory_System<br/>
