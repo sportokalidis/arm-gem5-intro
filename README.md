@@ -135,16 +135,45 @@ The TimingSimpleCPU adopted Timing memory access instead of the simple Atomic on
 Minor is an in-order processor model with a fixed pipeline but configurable data structures and execute behaviour. It is intended to be used to model processors with strict in-order execution behaviour and allows visualisation of an instruction's position in the pipeline. The intention is to provide a framework for micro-architecturally correlating the model with a particular, chosen processor with similar capabilities. MinorCPU has a fixed four-stage in-order execution pipeline, while having configurable data structures and execute behavior; therefore it can be configured at the micro-architecture level to model a specific processor. The four-stage pipeline implemented by MinorCPU includes fetching lines, decomposition into macro-ops, decomposition of macro-ops into micro-ops and execute. These stages are named Fetch1, Fetch2, Decode and Execute, respectively. The pipeline class controls the cyclic tick event and the idling (cycle skipping).<br/><br/>
 <img src="images/MinorCPU.png" width=500 height=300/> <br/><br/>
 
-More about MinorCPU and pipeline stages [here](http://www.gem5.org/docs/html/minor.html).
+More about MinorCPU and pipeline stages [here](http://www.gem5.org/docs/html/minor.html). <br/><br/><br/>
 
 
+### Part 2
+#### Comparison between MinorCPU model and TimingSimpleCPU model
+|stats     |  MinorCPU    |  TiminigSimpleCPU|
+|----------|:------------:|-----------------:|
+|sim seconds|0.000032|0.000039|   
+|sim_ticks|31790000|38986000|
+|final_ticks|31790000|38986000|
+|sim_freq|1000000000000|1000000000000|
+|sim_insts|10747|10705|
+|sim_ops|12670|12589|
+|system.cpu.committedOps|12670|12589|
+
+<br/>
+
+More stats about part 2 [here](https://github.com/sportokalidis/arm-gem5-intro/tree/master/part2)
+
+<br/><br/>
 
 
+### Part 3
+#### Comparison between MinorCPU model and TimingSimpleCPU model when memory type is DDR4_2400_8x8 
+|stats     |  MinorCPU    |  TiminigSimpleCPU|
+|----------|:------------:|-----------------:|
+|sim seconds|0.000031|0.000039|   
+|sim_ticks|30883000|38875000|
+|final_ticks|30883000|38875000|
+|sim_freq|1000000000000|1000000000000|
+|sim_insts|221608|10705|
+|sim_ops|12670|12589|
+|system.cpu.committedOps|12670|12589|
 
+<br/>
 
+More stats about part 2 [here](https://github.com/sportokalidis/arm-gem5-intro/tree/master/part3)
 
- 
-
+<br/><br/>
 
 
 ---
