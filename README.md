@@ -67,7 +67,7 @@ in lines 99-100, defines **voltage** and **clock**
     self.voltage_domain = VoltageDomain(voltage="3.3V")
     self.clk_domain = SrcClockDomain(clock="1GHz",voltage_domain=self.voltage_domain)
 ```
-449714
+
 ---
 ### _2. Verification of simulation configs_
 #### gem5 output:
