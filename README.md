@@ -140,6 +140,19 @@ More about MinorCPU and pipeline stages [here](http://www.gem5.org/docs/html/min
 
 ### Part 2
 #### Comparison between MinorCPU model and TimingSimpleCPU model
+
+###### Run command for MinorCPU model
+
+```shell
+$ ./build/ARM/gem5.opt -d Results_MinorCPU configs/example/se.py --cpu-type=MinorCPU --caches --cmd=tests/test-progs/hello/bin/arm/linux/test
+```
+
+###### Run command for TimingSimpleCPU model
+
+```shell
+$ ./build/ARM/gem5.opt -d Results_TimingSimpleCPU configs/example/se.py --cpu-type=TimingSimpleCPU --caches --cmd=tests/test-progs/hello/bin/arm/linux/test
+```
+
 |stats     |  MinorCPU    |  TiminigSimpleCPU|
 |----------|:------------:|-----------------:|
 |sim seconds|0.000032|0.000039|   
@@ -155,11 +168,25 @@ More about MinorCPU and pipeline stages [here](http://www.gem5.org/docs/html/min
 
 More stats about part 2 [here](https://github.com/sportokalidis/arm-gem5-intro/tree/master/part2)
 
-<br/><br/>
+<br/><br/><br/>
 
 
 ### Part 3
-#### Comparison between MinorCPU model and TimingSimpleCPU model when memory type is DDR4_2400_8x8 
+#### Comparison between MinorCPU model and TimingSimpleCPU model when memory type is DDR4_2400_8x8
+
+###### Run command for MinorCPU model
+
+```shell
+$ ./build/ARM/gem5.opt -d Results_MinorCPU configs/example/se.py --cpu-type=MinorCPU --caches --mem-type=DDR4_2400_8x8 --cmd=tests/test-progs/hello/bin/arm/linux/test
+```
+
+###### Run command for TimingSimpleCPU model
+
+```shell
+$ ./build/ARM/gem5.opt -d Results_TimingSimpleCPU configs/example/se.py --cpu-type=TimingSimpleCPU --caches --mem-type=DDR4_2400_8x8 --cmd=tests/test-progs/hello/bin/arm/linux/test
+```
+
+
 |stats     |  MinorCPU    |  TiminigSimpleCPU|
 |----------|:------------:|-----------------:|
 |sim seconds|0.000031|0.000039|   
@@ -173,14 +200,29 @@ More stats about part 2 [here](https://github.com/sportokalidis/arm-gem5-intro/t
 
 <br/>
 
-More stats about part 2 [here](https://github.com/sportokalidis/arm-gem5-intro/tree/master/part3)
+More stats about part 3 [here](https://github.com/sportokalidis/arm-gem5-intro/tree/master/part3)
 
-<br/><br/>
+<br/>
 
 In part2 and part3, the differecne between two models is located in **num of cicles**. MinorCPU model is faster because of a better iplementation of pipeline.
 
+<br/><br/><br/>
+
 ### Part 4
 #### Comparison between MinorCPU model and TimingSimpleCPU model when CPUs fequency is 3GHz and memory type is DDR4_2400_8x8   
+
+
+###### Run command for MinorCPU model
+
+```shell
+$ ./build/ARM/gem5.opt -d Results_MinorCPU configs/example/se.py --cpu-type=MinorCPU --caches --cpu-clock=3GHz --mem-type=DDR4_2400_8x8 --cmd=tests/test-progs/hello/bin/arm/linux/test
+```
+
+###### Run command for TimingSimpleCPU model
+
+```shell
+$ ./build/ARM/gem5.opt -d Results_TimingSimpleCPU configs/example/se.py --cpu-type=TimingSimpleCPU --caches --cpu-clock=3GHz --mem-type=DDR4_2400_8x8 --cmd=tests/test-progs/hello/bin/arm/linux/test
+```
 
 |stats     |  MinorCPU    |  TiminigSimpleCPU|
 |----------|:------------:|-----------------:|
@@ -193,9 +235,14 @@ In part2 and part3, the differecne between two models is located in **num of cic
 |system.cpu.committedOps|12670|12589|
 |system.cpu.numCycles|86362|100952|
 
-In part 4, we see that the two models has better results because of the CPUs frecuency increase.
+<br/>
+
+More stats about part 4 [here](https://github.com/sportokalidis/arm-gem5-intro/tree/master/part4)
 
 <br/>
+
+In part 4, we see that the two models has better results because of the CPUs frecuency increase.
+
 
 ---
 
