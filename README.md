@@ -77,9 +77,9 @@ in lines 99-100, defines **voltage** and **clock**
 By default, the output send this three files in **m5out** file. In our command, we send the output files in **hello_result** file (this accepted with the flag **-d path** in run command)
 
 #### Verification of first part answer
-[stats.txt]()<br/>
-[config.ini]()<br/>
-[stats.json]()<br/><br/>
+[stats.txt](https://github.com/sportokalidis/arm-gem5-intro/blob/master/part1/part1_results/stats.txt)<br/>
+[config.ini](https://github.com/sportokalidis/arm-gem5-intro/blob/master/part1/part1_results/config.ini)<br/>
+[config.json](https://github.com/sportokalidis/arm-gem5-intro/blob/master/part1/part1_results/config.json)<br/><br/>
 
 In file ***config.ini:***<br/>
     
