@@ -177,5 +177,21 @@ More stats about part 2 [here](https://github.com/sportokalidis/arm-gem5-intro/t
 
 <br/><br/>
 
+Both in part2 and part3 the differecne between two models is located in **num of cicles**. MinorCPU model is faster because of a better iplementation of pipeline.
+
+
 
 ---
+
+
+
+
+
+### SOURCES
+[1] http://www.gem5.org
+[2] https://github.com/arm-university/arm-gem5-rsk
+[3] http://gem5.org/SimpleCPU
+[4] http://gem5.org/Documentation
+[5] http://www.gem5.org/docs/html/minor.html
+[6] http://pages.cs.wisc.edu/~david/courses/cs752/Fall2015/gem5-tutorial/index.html
+[7] http://www.gem5.org/General_Memory_System
