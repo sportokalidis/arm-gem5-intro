@@ -2,6 +2,16 @@
 1st project for computer architecture lab<br/>
 <img src=images/gem5-logo.png width=900 height=600/>
 
+
+## Introduction
+The main page about gem5 simulator we can be found [here](http://www.gem5.org/Main_Page) <br/>
+Please see [here](http://www.gem5.org/Dependencies), for details about dependencies. You will need to follow this software, in order to build gem5 simulator. <br/>
+
+
+
+
+
+
 ## Answers to questions
 ### _1. starter_se.py simulation script_
 #### SE Simulation
@@ -57,7 +67,7 @@ several **cpu models** define in lines 69-79 in this map data stucture:
 
 
 In addition, in class ***SimpleSeSystem*** (lines: 82-141):<br/>
-in line 88, define **cache lin size**
+in line 88, define **cache line size**
 ```python
     # Use a fixed cache line size of 64 bytes
     cache_line_size = 64
