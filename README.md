@@ -291,6 +291,6 @@ In part 4, we see that the two models has better results because of the CPUs fre
 ### Review
 I think that this project is a good start to gem5 simulator. Firstly, give detailed informations about installation of gem5.
 The questions, is a good oportunity to learn many things about several CPUs models and outputs of gem5 silulator.<br/>
-The only disadvantage that I have noticed is command in page 6 , question 3.a is wrong.
+The only disadvantage that I have noticed is wrong command in page 6 , question 3.a.
 
 
