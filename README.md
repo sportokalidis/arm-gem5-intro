@@ -284,3 +284,13 @@ In part 4, we see that the two models has better results because of the CPUs fre
 [5] http://www.gem5.org/docs/html/minor.html<br/>
 [6] http://pages.cs.wisc.edu/~david/courses/cs752/Fall2015/gem5-tutorial/index.html<br/>
 [7] http://www.gem5.org/General_Memory_System<br/>
+
+
+
+---
+### Review
+I think that this project is a good start to gem5 simulator. Firstly, give detailed informations about installation of gem5.
+The questions, is a good oportunity to learn many things about several CPUs models and outputs of gem5 silulator.<br/>
+The only disadvantage that I have noticed is command in page 6 , question 3.a is wrong.
+
+
