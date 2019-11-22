@@ -6,7 +6,23 @@
 ## Introduction
 The main page about gem5 simulator we can be found [here](http://www.gem5.org/Main_Page) <br/>
 Please see [here](http://www.gem5.org/Dependencies), for details about dependencies. You will need to follow this software, in order to build gem5 simulator. <br/>
+When you have all dependencie, in oder to build gem5 sse [here](http://www.gem5.org/Build_System).<br/><br/>
 
+This repository refers to ARM architecture, as a result you need a cross compiler to make executables for ARM architecture.<br/><br/>
+
+###### Commmands to install gcc and g++ compilers 
+```console
+$ sudo apt install gcc-arm-linux-gnueabihf
+```
+
+```console
+$ sudo apt install g++-arm-linux-gnueabihf
+```
+###### Build command  
+```console
+$ arm-linux-gnueabihf-gcc --static myprog.c -o myprog_arm
+
+```
 
 
 
