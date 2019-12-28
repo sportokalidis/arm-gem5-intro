@@ -27,10 +27,20 @@
 
 #### 2. comparison CPUs
 
+> TODO: ANSWERTO QUESTION
+
 
 <br/>
 
+
 #### 3. XEON vs ARM_A9_2GHz
+<br/>
+
+_McPat results:_ <br/> 
+- [Xeon results]()
+- [ARM A9 results]()
+
+> TODO: ADD LINK FOR RESULTS
 
 ---
 
