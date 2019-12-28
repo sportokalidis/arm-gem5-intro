@@ -7,9 +7,10 @@
 
 ## Answer to questions
 
-### Part 1
+### _1: Introduction to McPat simulator_
+
 
 
 ---
 
-### Part 2
+### _2: gem5 + McPat: EDAP optimization_
