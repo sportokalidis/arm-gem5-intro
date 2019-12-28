@@ -2,7 +2,7 @@
 
 ## Introduction
 
-
+> TODO: ADD IMAGE , AN INTRO TO MCPAT
 ---
 
 ## Answer to questions
@@ -41,6 +41,11 @@ _McPat results:_ <br/>
 - [ARM A9 results]()
 
 > TODO: ADD LINK FOR RESULTS
+
+|Processor| Runtime Dynamic| Total Leakage  |     Area      |Peak Power  |Peak Dynamic|Subthreshold Leakage|Gate Leakage |
+|:--------|:--------------:|:--------------:|:-------------:|:----------:|:----------:|:------------------:|:-----------:|
+|**Xeon**  |   72.9199 W    |    36.8319 W   | 410.507 mm^2  | 134.938 W  | 98.1063 W  |    35.1632 W       | 1.66871 W   |
+|**ARM A9**|   2.96053 W    |    0.108687 W  | 5.39698 mm^2  | 1.74189 W  |  1.6332 W  |    0.0523094 W     |  0.0563774 W|
 
 ---
 
