@@ -15,7 +15,7 @@
 
 > **Dynamic Power = 1/2 * Capacitive_Load * Voltage<sup>2</sup>  * Frequency_switching**
 
-Παρόλο που, στη τεχνολογία CMOS, η δυναμική ισύς, αποτελεί την κυρια πηγή κατανάλωσης ισχύος, η στατική ισχύς (static power), επειδή το ρευμα διαρροής (leakage current), εξακολουθεί να κυκλοφορεί ακόμα και όταν το transitor ειναι κλειστο.
+Παρόλο που, στη τεχνολογία CMOS, η δυναμική ισύς, αποτελεί την κυρια πηγή κατανάλωσης ισχύος, η στατική ισχύς (static power), εχει ιδιαίτερη σπουδαιότητα, επειδή το ρευμα διαρροής (leakage current), εξακολουθεί να κυκλοφορεί ακόμα και όταν το transitor ειναι κλειστο.
 
 > **Static Power = Static_Current * Voltage** 
 
@@ -25,12 +25,12 @@
 
 <br/>
 
-#### 2. comparison CPUs**
+#### 2. comparison CPUs
 
 
 <br/>
 
-#### 3. XEON vs ARM_A9_2GHz**
+#### 3. XEON vs ARM_A9_2GHz
 
 ---
 
