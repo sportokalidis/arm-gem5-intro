@@ -91,7 +91,8 @@ Total_Energy = 40 (sec) * 3 (Joule/sec) + 0 (secs) * 0.1 (Joule/sec) => <br/>
 **Area:** το παίρνουμε απο το άθροισμα του area του core και του L2, απο την εξοδο του McPat.<br/>
 **Delay:** απο τo stats,txt που παραγεται από τον gem5.<br/>
 **energy:** απο την εξοδο του McPat παίρνουμε το Leakage power και το Dynamic power καθως και το execution time απο το stats.txt απο την εξοδο του gem5 και υπολογιζουμε το energy
-> **Energy = (Dynamic_power + leakage_power)*execution_time**
+
+> **Energy = (Dynamic_power + leakage_power) * execution_time**
 
 για ευκολια χρησιμοποιυμε το αρχειο [**print_energy.py**]()
 
