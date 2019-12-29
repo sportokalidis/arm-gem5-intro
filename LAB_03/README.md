@@ -285,6 +285,21 @@ Total_Energy = 40 (sec) * 3 (Joule/sec) + 0 (secs) * 0.1 (Joule/sec) => <br/>
 |file 4|413|41|0.111368|1885.794344|
 |file 5|414|38|0.111112|1748.013984|
 
+
+<br/>
+<img src=part_2/diagrams/mcf_area.png width=700 height=400/>
+<br/>
+
+<br/>
+<img src=part_2/diagrams/mcf_peak_power.png width=700 height=400/>
+<br/>
+
+<br/>
+<img src=part_2/diagrams/mcf_EDAP.png width=700 height=400/>
+<br/>
+
+
+
 <br/><br/><br/>
 
 
