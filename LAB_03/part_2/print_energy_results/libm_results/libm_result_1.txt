@@ -1,0 +1,4 @@
+Reading simulation time from: mcp_results/speclibm_results/libm_result_1.txt
+Reading simulation time from: lab02_results/speclibm_results/speclibm_1/stats.txt
+leakage: 1.109440 W, dynamic: 0.153097 W and runtime: 0.130804 sec
+energy is 165.144890 mJ

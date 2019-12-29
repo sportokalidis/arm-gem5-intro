@@ -1,0 +1,1 @@
+Reading simulation time from: mcp_results/spechmmer_results/hmmer_result_3.txt

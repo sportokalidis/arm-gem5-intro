@@ -1,0 +1,4 @@
+Reading simulation time from: mcp_results/spechmmer_results/hmmer_result_15.txt
+Reading simulation time from: lab02_results/spechmmer_results/spechmmer_15/stats.txt
+leakage: 1.644060 W, dynamic: 1.123340 W and runtime: 0.117780 sec
+energy is 325.944372 mJ

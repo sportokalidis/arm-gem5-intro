@@ -1,0 +1,4 @@
+Reading simulation time from: mcp_results/specbzip_results/bzip_result_3.txt
+Reading simulation time from: lab02_results/specbzip_results/specbzip_3/stats.txt
+leakage: 1.382110 W, dynamic: 1.012450 W and runtime: 0.083625 sec
+energy is 200.245080 mJ
