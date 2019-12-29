@@ -333,7 +333,19 @@ Total_Energy = 40 (sec) * 3 (Joule/sec) + 0 (secs) * 0.1 (Joule/sec) => <br/>
 |file 8|1050|29|0.497655|15153.59475|
 
 
+<br/>
+<img src=part_2/diagrams/jeng_area.png width=700 height=400/>
+<br/>
 
+<br/>
+<img src=part_2/diagrams/jeng_peak_power.png width=700 height=400/>
+<br/>
 
+<br/>
+<img src=part_2/diagrams/jeng_EDAP.png width=700 height=400/>
+<br/>
 
+---
+
+## Sources
 
