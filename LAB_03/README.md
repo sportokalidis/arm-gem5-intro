@@ -139,7 +139,8 @@ Total_Energy = 40 (sec) * 3 (Joule/sec) + 0 (secs) * 0.1 (Joule/sec) => <br/>
 
 
 
-<br/><br>
+<br/><br><br/>
+
 
 
 **spechmmer**<br/>
@@ -173,7 +174,7 @@ Total_Energy = 40 (sec) * 3 (Joule/sec) + 0 (secs) * 0.1 (Joule/sec) => <br/>
 |file 4|326|35|0.058372|666.02452|
 |file 5|326|35|0.11778|1343.8698|
 
-<br/><br/>
+<br/><br/><br/>
 
 
 
@@ -209,7 +210,9 @@ Total_Energy = 40 (sec) * 3 (Joule/sec) + 0 (secs) * 0.1 (Joule/sec) => <br/>
 |file 5|771|98|0.16547|12502.58226|
 |file 6|777|99|0.16547|12728.44881|
 
-<br/><br/>
+
+<br/><br/><br/>
+
 
 
 
@@ -246,7 +249,7 @@ Total_Energy = 40 (sec) * 3 (Joule/sec) + 0 (secs) * 0.1 (Joule/sec) => <br/>
 |file 4|413|41|0.111368|1885.794344|
 |file 5|414|38|0.111112|1748.013984|
 
-<br/><br/>
+<br/><br/><br/>
 
 
 
