@@ -149,6 +149,12 @@ Total_Energy = 40 (sec) * 3 (Joule/sec) + 0 (secs) * 0.1 (Joule/sec) => <br/>
 <img src=part_2/diagrams/bzip_EDAP.png width=700 height=400/>
 <br/>
 
+You can find:<br/> 
+[1] gem5 output for all files [here](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/specbzip_results) <br/>
+[2] McPat output for all files [here](https://github.com/sportokalidis/arm-gem5-intro/tree/master/LAB_03/part_2/mcp_results/specbzip_results) <br/>
+[3] Info about EDAP result for all files [here](https://github.com/sportokalidis/arm-gem5-intro/tree/master/LAB_03/part_2/EDAP_results) <br/>
+
+
 <br/><br><br/>
 
 
@@ -348,4 +354,13 @@ Total_Energy = 40 (sec) * 3 (Joule/sec) + 0 (secs) * 0.1 (Joule/sec) => <br/>
 ---
 
 ## Sources
+<br/><br/>
+
+---
+
+## Review
+<br/><br/>
+
+
+
 
