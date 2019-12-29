@@ -184,6 +184,19 @@ Total_Energy = 40 (sec) * 3 (Joule/sec) + 0 (secs) * 0.1 (Joule/sec) => <br/>
 |file 4|326|35|0.058372|666.02452|
 |file 5|326|35|0.11778|1343.8698|
 
+
+<br/>
+<img src=part_2/diagrams/hmmer_area.png width=700 height=400/>
+<br/>
+
+<br/>
+<img src=part_2/diagrams/hmmer_peak_power.png width=700 height=400/>
+<br/>
+
+<br/>
+<img src=part_2/diagrams/hmmer_EDAP.png width=700 height=400/>
+<br/>
+
 <br/><br/><br/>
 
 
