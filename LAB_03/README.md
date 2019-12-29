@@ -100,6 +100,36 @@ Total_Energy = 40 (sec) * 3 (Joule/sec) + 0 (secs) * 0.1 (Joule/sec) => <br/>
 
 
 
+#### 2.Results
+<br/>
+
+**specbzip** <br/>
+
+
+
+
+**spechmmer**<br/>
+
+
+
+
+**speclibm**<br/>
+
+
+
+
+**specmcf**<br/>
+
+
+
+
+
+**specsjeng**<br/>
+
+
+
+
+
 
 
 
