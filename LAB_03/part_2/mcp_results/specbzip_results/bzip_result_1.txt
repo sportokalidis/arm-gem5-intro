@@ -1,0 +1,59 @@
+McPAT (version 1.3 of Feb, 2015) is computing the target processor...
+ 
+Warning: dcache array structure cannot satisfy latency constraint.
+
+McPAT (version 1.3 of Feb, 2015) results (current print level is 1, please increase print level to see the details in components): 
+*****************************************************************************************
+  Technology 28 nm
+  Using Long Channel Devices When Appropriate
+  Interconnect metal projection= aggressive interconnect technology projection
+  Core clock Rate(MHz) 2000
+
+*****************************************************************************************
+Processor: 
+  Area = 52.9578 mm^2
+  Peak Power = 9.49383 W
+  Total Leakage = 1.27458 W
+  Peak Dynamic = 8.21925 W
+  Subthreshold Leakage = 1.26382 W
+  Subthreshold Leakage with power gating = 0.925649 W
+  Gate Leakage = 0.010754 W
+  Runtime Dynamic = 0.979256 W
+
+  Total Cores: 1 cores 
+  Device Type= ITRS low operating power device type
+    Area = 12.7986 mm^2
+    Peak Dynamic = 5.60654 W
+    Subthreshold Leakage = 1.20493 W
+    Subthreshold Leakage with power gating = 0.882276 W
+    Gate Leakage = 0.00702235 W
+    Runtime Dynamic = 0.880618 W
+
+  Total L2s: 
+  Device Type= ITRS low standby power device type
+    Area = 38.4333 mm^2
+    Peak Dynamic = 2.39516 W
+    Subthreshold Leakage = 0.0163995 W
+    Subthreshold Leakage with power gating = 0.0127479 W
+    Gate Leakage = 0.00351474 W
+    Runtime Dynamic = 0.0738975 W
+
+  Total NoCs (Network/Bus): 
+  Device Type= ITRS low operating power device type
+    Area = 0.00474825 mm^2
+    Peak Dynamic = 0.00114295 W
+    Subthreshold Leakage = 0.000212071 W
+    Subthreshold Leakage with power gating = 0.000152691 W
+    Gate Leakage = 1.35883e-06 W
+    Runtime Dynamic = 5.3541e-06 W
+
+  Total MCs: 1 Memory Controllers 
+  Device Type= ITRS low operating power device type
+    Area = 1.72115 mm^2
+    Peak Dynamic = 0.216404 W
+    Subthreshold Leakage = 0.0422782 W
+    Subthreshold Leakage with power gating = 0.0304724 W
+    Gate Leakage = 0.000215525 W
+    Runtime Dynamic = 0.0247352 W
+
+*****************************************************************************************
