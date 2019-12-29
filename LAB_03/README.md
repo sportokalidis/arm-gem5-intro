@@ -139,15 +139,77 @@ Total_Energy = 40 (sec) * 3 (Joule/sec) + 0 (secs) * 0.1 (Joule/sec) => <br/>
 
 
 
-<br/>
+<br/><br>
+
 
 **spechmmer**<br/>
 
+|file  | L1 icache size| L1 dcache size | L2 cache size|L1 icache assoc|L1 dcache assoc|L2 cache assoc|cache line size|
+|:----:|:-------------:|:--------------:|:------------:|:-------------:|:-------------:|:------------:|:-------------:|
+|file 1|64 KB          |64 KB           |2 MB          |2              |2              |8             |128 Bytes      |
+|file 2|64 KB          |128 KB          |2 MB          |2              |2              |8             |128 Bytes      |
+|file 4|128 KB         |128 KB          |1 MB          |4              |8              |4             |128 Bytes      |
+|file 5|128 KB         |128 KB          |1 MB          |4              |8              |2             |128 Bytes      |
+
+<br/>
+
+**McPat output**<br/>
+
+|file  |Area |Runtime Dynamic |Subthreshold Leakage |Gate Leakage |Peak Power|
+|------|:---:|:--------------:|:-------------------:|:-----------:|:--------:|
+|file 1|52.4 mm^2 |0.644 W    | 1.34256 W           |0.011733 W   |9.91251 W |
+|file 2|54.6 mm^2 |0.644 W    | 1.47694 W           |0.011824 W   |11.0655 W |
+|file 4|37.4 mm^2 |0.984 W    | 1.63374 W           |0.012160 W   |11.7676 W |
+|file 5|42.8 mm^2 |1.123 W    | 1.83167 W           |0.013102 W   |13.591  W |
+
+<br/>
+
+**EDAP** <br/>
+
+|file  |Energy|Area |Delay |EDAP |
+|------|:----:|:---:|:----:|:---:|
+|file 1|115|50|0.117785|677.26375|
+|file 2|123|52|0.057998|370.955208|
+|file 4|326|35|0.058372|666.02452|
+|file 5|326|35|0.11778|1343.8698|
+
+<br/><br/>
 
 
 
 **speclibm**<br/>
 
+|file  | L1 icache size| L1 dcache size | L2 cache size|L1 icache assoc|L1 dcache assoc|L2 cache assoc|cache line size|
+|:----:|:-------------:|:--------------:|:------------:|:-------------:|:-------------:|:------------:|:-------------:|
+|file 1|64 KB          |32 KB           |4 MB          |1              |1              |8             |128 Bytes      |
+|file 4|128 KB         |128 KB          |2 MB          |1              |4              |1             |256 Bytes      |
+|file 5|128 KB         |128 KB          |4 MB          |2              |2              |1             |256 Bytes      |
+|file 6|32 KB          |64 KB           |2 MB          |4              |2              |1             |256 Bytes      |
+
+<br/>
+
+
+**McPat output**<br/>
+
+|file  |Area |Runtime Dynamic |Subthreshold Leakage |Gate Leakage |Peak Power|
+|------|:---:|:--------------:|:-------------------:|:-----------:|:--------:|
+|file 1|28.5 mm^2 |0.153 W    | 1.10138 W           |0.008058 W   |8.04241 W |
+|file 4|101.7 mm^2|1.858 W    | 2.99405 W           |0.026583 W   |31.5029 W |
+|file 5|101 mm^2  |0.984 W    | 2.95155 W           |0.0262717 W   |31.035 W |
+|file 6|42.8 mm^2 |1.686 W    | 1.83167 W           |0.013102 W   |13.591  W |
+
+<br/>
+
+**EDAP** <br/>
+
+|file  |Energy|Area |Delay |EDAP |
+|------|:----:|:---:|:----:|:---:|
+|file 1|165|26|0.16547|709.8663|
+|file 4|807|99|0.165471|13219.974603|
+|file 5|771|98|0.16547|12502.58226|
+|file 6|777|99|0.16547|12728.44881|
+
+<br/>br/<>
 
 
 
