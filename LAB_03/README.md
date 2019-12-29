@@ -84,3 +84,9 @@ Total_Energy = 40 (sec) * 3 (Joule/sec) + 0 (secs) * 0.1 (Joule/sec) => <br/>
 ---
 
 ### _Part_2. gem5 + McPat: EDAP optimization_
+
+Σε αυτό το μέρος της εργαστηριακής άσκησεις, θα χρησιμοποιήσουμε τα αποτελέσματα, απο την προηγούμενη εργαστηριακή άσκηση, όπου μας είχε ζητηθεί να βελτιστοποιήσουμε τον επεξεργαστη με βάση μια συνάρτηση κόστους. Το repository της δευτερης εργαστηριακής άσκησης βρισκεται [here](https://github.com/sportokalidis/Gem5_Design_Space_Exploration) . 
+
+#### 1. Take results 
+
+
