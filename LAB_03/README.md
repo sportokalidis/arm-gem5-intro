@@ -203,6 +203,13 @@ You can find:<br/>
 <img src=part_2/diagrams/hmmer_EDAP.png width=700 height=400/>
 <br/>
 
+You can find:<br/> 
+[1] gem5 output for all files [here](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/spechmmer_results) <br/>
+[2] McPat output for all files [here](https://github.com/sportokalidis/arm-gem5-intro/tree/master/LAB_03/part_2/mcp_results/spechmmer_results) <br/>
+[3] Info about EDAP result for all files [here](https://github.com/sportokalidis/arm-gem5-intro/tree/master/LAB_03/part_2/EDAP_results) <br/>
+
+
+
 <br/><br/><br/>
 
 
@@ -251,6 +258,14 @@ You can find:<br/>
 <br/>
 <img src=part_2/diagrams/libm_EDAP.png width=700 height=400/>
 <br/>
+
+
+You can find:<br/> 
+[1] gem5 output for all files [here](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/speclibm_results) <br/>
+[2] McPat output for all files [here](https://github.com/sportokalidis/arm-gem5-intro/tree/master/LAB_03/part_2/mcp_results/speclibm_results) <br/>
+[3] Info about EDAP result for all files [here](https://github.com/sportokalidis/arm-gem5-intro/tree/master/LAB_03/part_2/EDAP_results) <br/>
+
+
 
 
 <br/><br/><br/>
@@ -304,6 +319,11 @@ You can find:<br/>
 <img src=part_2/diagrams/mcf_EDAP.png width=700 height=400/>
 <br/>
 
+
+You can find:<br/> 
+[1] gem5 output for all files [here](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/specmcf_results) <br/>
+[2] McPat output for all files [here](https://github.com/sportokalidis/arm-gem5-intro/tree/master/LAB_03/part_2/mcp_results/specmcf_results) <br/>
+[3] Info about EDAP result for all files [here](https://github.com/sportokalidis/arm-gem5-intro/tree/master/LAB_03/part_2/EDAP_results) <br/>
 
 
 <br/><br/><br/>
