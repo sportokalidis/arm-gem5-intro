@@ -27,7 +27,6 @@
 
 #### 2. comparison CPUs
 
-> TODO: ANSWERTO QUESTION
 
 **Ερώτηση:** Σύγκριση δυο διαφορετικών επεξεργαστών. Υποθέτουμε οτι και οι δύο επεξεργαστές εχουν την ίδια χωτητικότητα μπαταρίας και εστω οτι ο πρωτος καταναλωνει 5 Watt, ενω ο δεύτερος καταναλώνει 40 Watt. Μπορεί ο δεύτερος επεξεργαστής, να δινει μεγαλύτερη διάρκεια μπαταρίας; <br/><br/>
 
@@ -47,10 +46,9 @@
 <br/>
 
 _McPat results:_ <br/> 
-- [Xeon results]()
-- [ARM A9 results]()
+- [Xeon results](https://github.com/sportokalidis/arm-gem5-intro/blob/master/LAB_03/part_1/Xeon_results)
+- [ARM A9 results](https://github.com/sportokalidis/arm-gem5-intro/blob/master/LAB_03/part_1/ARM_A9_2GHz_results)
 
-> TODO: ADD LINK FOR RESULTS
 
 |Processor| Runtime Dynamic| Total Leakage  |     Area      |Peak Power  |Peak Dynamic|Subthreshold Leakage|Gate Leakage |
 |:--------|:--------------:|:--------------:|:-------------:|:----------:|:----------:|:------------------:|:-----------:|
@@ -94,10 +92,9 @@ Total_Energy = 40 (sec) * 3 (Joule/sec) + 0 (secs) * 0.1 (Joule/sec) => <br/>
 
 > **Energy = (Dynamic_power + leakage_power) * execution_time**
 
-για ευκολια χρησιμοποιυμε το αρχειο [**print_energy.py**]()
+για ευκολια χρησιμοποιυμε το αρχειο [**print_energy.py**](https://github.com/sportokalidis/arm-gem5-intro/blob/master/LAB_03/part_2/Scripts/print_energy.py)
 
-> TODO: ΝΑ βαλω link sto file
-
+<br/>
 
 
 #### _2. Results_
