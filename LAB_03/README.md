@@ -232,10 +232,10 @@ Total_Energy = 40 (sec) * 3 (Joule/sec) + 0 (secs) * 0.1 (Joule/sec) => <br/>
 
 |file  |Area |Runtime Dynamic |Subthreshold Leakage |Gate Leakage |Peak Power|
 |------|:---:|:--------------:|:-------------------:|:-----------:|:--------:|
-|file 1|53 mm^2 |0.152 W    | 1.83717 W             |0.00421343 W |13.7281 W |
-|file 3|283 mm^2 |0.918 W    | 1.84069 W             |0.0131573 W  |11.5051 W |
-|file 4|413 mm^2 |1.869 W    | 2.95155 W             |0.0132376W   |13.5828 W |
-|file 5|414 mm^2 |1.860 W    | 1.83167 W             |0.013102 W   |13.591  W |
+|file 1|8 mm^2 |0.152 W    | 1.83717 W             |0.00421343 W |13.7281 W |
+|file 3|35 mm^2 |0.918 W    | 1.84069 W             |0.0131573 W  |11.5051 W |
+|file 4|41 mm^2 |1.869 W    | 2.95155 W             |0.0132376W   |13.5828 W |
+|file 5|38 mm^2 |1.860 W    | 1.83167 W             |0.013102 W   |13.591  W |
 
 
 <br/>
@@ -256,9 +256,30 @@ Total_Energy = 40 (sec) * 3 (Joule/sec) + 0 (secs) * 0.1 (Joule/sec) => <br/>
 **specsjeng**<br/>
 
 
+|file  | L1 icache size| L1 dcache size | L2 cache size|L1 icache assoc|L1 dcache assoc|L2 cache assoc|cache line size|
+|:----:|:-------------:|:--------------:|:------------:|:-------------:|:-------------:|:------------:|:-------------:|
+|file 2|64 KB          |32 KB           |4 MB          |1              |1              |8             |128 Bytes      |
+|file 5|32 KB          |64 KB           |512 kB        |2              |2              |1             |128 Bytes      |
+|file 8|64 KB          |64 KB           |512 KB        |4              |2              |1             |128 Bytes      |
 
 
+**McPat output**<br/>
 
+|file  |Area |Runtime Dynamic |Subthreshold Leakage |Gate Leakage |Peak Power|
+|------|:---:|:--------------:|:-------------------:|:-----------:|:--------:|
+|file 2|53 mm^2 |0.136 W     | 1.10138 W             |0.00805859 W |8.04241 W |
+|file 5|283 mm^2 |0.319 W    | 1.23409 W             |0.00937864 W  |8.71127 W |
+|file 8|413 mm^2 |0.628 W    | 1.47158 W             |0.0109143 W   |10.304 W |
+
+<br/>
+
+**EDAP** <br/>
+
+|file  |Energy|Area |Delay |EDAP |
+|------|:----:|:---:|:----:|:---:|
+|file 2|423|26|0.339891|3738.121218|
+|file 5|531|26|0.34007|4695.00642|
+|file 8|1050|29|0.497655|15153.59475|
 
 
 
