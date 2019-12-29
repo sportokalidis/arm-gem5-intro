@@ -85,8 +85,23 @@ Total_Energy = 40 (sec) * 3 (Joule/sec) + 0 (secs) * 0.1 (Joule/sec) => <br/>
 
 ### _Part_2. gem5 + McPat: EDAP optimization_
 
-Σε αυτό το μέρος της εργαστηριακής άσκησεις, θα χρησιμοποιήσουμε τα αποτελέσματα, απο την προηγούμενη εργαστηριακή άσκηση, όπου μας είχε ζητηθεί να βελτιστοποιήσουμε τον επεξεργαστη με βάση μια συνάρτηση κόστους. Το repository της δευτερης εργαστηριακής άσκησης βρισκεται [here](https://github.com/sportokalidis/Gem5_Design_Space_Exploration) . 
+Σε αυτό το μέρος της εργαστηριακής άσκησεις, θα χρησιμοποιήσουμε τα αποτελέσματα, απο την προηγούμενη εργαστηριακή άσκηση, όπου μας είχε ζητηθεί να βελτιστοποιήσουμε τον επεξεργαστη με βάση μια συνάρτηση κόστους. Το repository της δευτερης εργαστηριακής άσκησης βρισκεται [here](https://github.com/sportokalidis/Gem5_Design_Space_Exploration). Σκοπός αυτου τπυ μέρους είναι να βρούμε την καλύτερη λύση που να βελτιστοποιεί το γινόμενο Energy-Delay-Area (EDAP).
 
 #### 1. Take results 
+**Area:** το παίρνουμε απο το άθροισμα του area του core και του L2, απο την εξοδο του McPat.<br/>
+**Delay:** απο τo stats,txt που παραγεται από τον gem5.<br/>
+**energy:** απο την εξοδο του McPat παίρνουμε το Leakage power και το Dynamic power καθως και το execution time απο το stats.txt απο την εξοδο του gem5 και υπολογιζουμε το energy
+> **Energy = (Dynamic_power + leakage_power)*execution_time**
+
+για ευκολια χρησιμοποιυμε το αρχειο [**print_energy.py**]()
+
+> TODO: ΝΑ βαλω link sto file
+
+
+
+
+
+
+
 
 
