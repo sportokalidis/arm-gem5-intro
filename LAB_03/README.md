@@ -87,7 +87,7 @@ Total_Energy = 40 (sec) * 3 (Joule/sec) + 0 (secs) * 0.1 (Joule/sec) => <br/>
 
 Σε αυτό το μέρος της εργαστηριακής άσκησεις, θα χρησιμοποιήσουμε τα αποτελέσματα, απο την προηγούμενη εργαστηριακή άσκηση, όπου μας είχε ζητηθεί να βελτιστοποιήσουμε τον επεξεργαστη με βάση μια συνάρτηση κόστους. Το repository της δευτερης εργαστηριακής άσκησης βρισκεται [here](https://github.com/sportokalidis/Gem5_Design_Space_Exploration). Σκοπός αυτου τπυ μέρους είναι να βρούμε την καλύτερη λύση που να βελτιστοποιεί το γινόμενο Energy-Delay-Area (EDAP).
 
-#### 1. Take results 
+#### _1. Take results_
 **Area:** το παίρνουμε απο το άθροισμα του area του core και του L2, απο την εξοδο του McPat.<br/>
 **Delay:** απο τo stats,txt που παραγεται από τον gem5.<br/>
 **energy:** απο την εξοδο του McPat παίρνουμε το Leakage power και το Dynamic power καθως και το execution time απο το stats.txt απο την εξοδο του gem5 και υπολογιζουμε το energy
@@ -100,13 +100,46 @@ Total_Energy = 40 (sec) * 3 (Joule/sec) + 0 (secs) * 0.1 (Joule/sec) => <br/>
 
 
 
-#### 2.Results
+#### _2. Results_
 <br/>
 
 **specbzip** <br/>
 
+|file  | L1 icache size| L1 dcache size | L2 cache size|L1 icache assoc|L1 dcache assoc|L2 cache assoc|cache line size|
+|:----:|:-------------:|:--------------:|:------------:|:-------------:|:-------------:|:------------:|:-------------:|
+|file 1|32 KB          |128 KB          |2 MB          |1              |1              |8             |128 Bytes      |
+|file 2|32 KB          |128 KB          |2 MB          |2              |2              |8             |128 Bytes      |
+|file 3|32 KB          |64 KB           |4 MB          |2              |2              |8             |128 Bytes      |
+|file 4|64 KB          |32 KB           |2 MB          |2              |2              |8             |128 Bytes      |
+|file 5|128 KB         |128 KB          |4 MB          |4              |2              |8             |128 Bytes      |
+
+<br/>
+
+**McPat output**<br/>
+
+|file  |Area |Runtime Dynamic |Subthreshold Leakage |Gate Leakage |Peak Power|
+|------|:---:|:--------------:|:-------------------:|:-----------:|:--------:|
+|file 1|52.9 mm^2 |0.979 W    | 1.26382 W           |0.010754 W   |9.49383 W |
+|file 2|53.6 mm^2 |1.018 W    | 1.37665 W           |0.011824 W   |10.2015 W |
+|file 3|32.4 mm^2 |1.012 W    | 1.372 W             |0.010105 W   |9.5333  W |
+|file 4|1523 mm^2 |0.984 W    | 2.29543 W           |0.103215 W   |18.0372 W |
+|file 5|42.8 mm^2 |1.910 W    | 1.83167 W           |0.013102 W   |13.591  W |
+
+<br/>
+
+**EDAP** <br/>
+
+|file  |Energy|Area |Delay |EDAP |
+|------|:----:|:---:|:----:|:---:|
+|file 1|194|51|0.086316|854.010504|
+|file 2|203|52|0.084722|894.325432|
+|file 3|200|30|0.083625|501.75|
+|file 4|284|1521|0.084149|36349.338636|
+|file 5|580|41|0.154665|3677.9337|
 
 
+
+<br/>
 
 **spechmmer**<br/>
 
