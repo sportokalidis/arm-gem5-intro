@@ -1,7 +1,7 @@
 # Energy-Delay-Area Product Optimization (gem5 + McPat) 
 
 3rd assignment for computer architecture lab<br/>
-<img src=images/computer_architecture.jpeg width=900 height=600/>
+<img src=images/introduction_image.jpg width=900 height=600/>
 
 ## Introduction
 
