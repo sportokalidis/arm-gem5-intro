@@ -137,7 +137,17 @@ Total_Energy = 40 (sec) * 3 (Joule/sec) + 0 (secs) * 0.1 (Joule/sec) => <br/>
 |file 4|284|1521|0.084149|3634.9338636|
 |file 5|580|41|0.154665|3677.9337|
 
+<br/>
+<img src=part_2/diagrams/bzip_area.png width=700 height=400/>
+<br/>
 
+<br/>
+<img src=part_2/diagrams/bzip_peak_power.png width=700 height=400/>
+<br/>
+
+<br/>
+<img src=part_2/diagrams/bzip_EDAP.png width=700 height=400/>
+<br/>
 
 <br/><br><br/>
 
