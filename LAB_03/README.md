@@ -234,6 +234,19 @@ Total_Energy = 40 (sec) * 3 (Joule/sec) + 0 (secs) * 0.1 (Joule/sec) => <br/>
 |file 6|777|99|0.16547|12728.44881|
 
 
+<br/>
+<img src=part_2/diagrams/libm_area.png width=700 height=400/>
+<br/>
+
+<br/>
+<img src=part_2/diagrams/libm_peak_power.png width=700 height=400/>
+<br/>
+
+<br/>
+<img src=part_2/diagrams/libm_EDAP.png width=700 height=400/>
+<br/>
+
+
 <br/><br/><br/>
 
 
