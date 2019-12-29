@@ -1,5 +1,8 @@
 # Energy-Delay-Area Product Optimization (gem5 + McPat) 
 
+3rd assignment for computer architecture lab<br/>
+<img src=images/computer_architecture.jpeg width=900 height=600/>
+
 ## Introduction
 
 > TODO: ADD IMAGE , AN INTRO TO MCPAT
