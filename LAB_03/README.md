@@ -394,6 +394,16 @@ You can find:<br/>
 [2] McPat output for all files [here](https://github.com/sportokalidis/arm-gem5-intro/tree/master/LAB_03/part_2/mcp_results/specsjeng_results) <br/>
 [3] Info about EDAP result for all files [here](https://github.com/sportokalidis/arm-gem5-intro/tree/master/LAB_03/part_2/EDAP_results) <br/>
 
+<br/>
+
+#### _3. Relationship between Lab_02 and lab_03_
+
+Αρχικά, παρατηρούμε οτι στα αποτελέσματα αυτής της άσκησεις λείπουν κάποια συγκεκριμένα files, τα οποια περιείχαν αρχιτεκτονικές , που δεν ειχε επιλεγεί η L2 cache για οικονομικους λογους και λογους βελτίωσεις απόδοσης του συστήματος στο προηγούμενο Lab.<br/>
+
+Στα υπόλοιπα αποτελεσμτα, βλέπουμε οτι αν καλουμασταν να πάρουμε μια αποφαση, σχετικα με τo energy efficiency και το γινομενο Energy-Delay-Area η αποφαση μας θα ηταν διαφορετικη στις περισσότερες των περιπτώσεν. Αφού, οι επιλογές που ειχαμε κάνει για βελτίωση της αποδοσης (CPI) και του κοστους σε υλικο, αυξανει τους παράγοντες area και power (οπως φαινεται και στα σχετικά διαγράμματα), με αποτέλεσμα να μην ειναι ενεργιακά αποδοτικό το σύστημα.       
+
+<br/>
+
 ---
 
 ## Sources
