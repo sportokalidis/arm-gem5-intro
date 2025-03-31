@@ -1,5 +1,5 @@
 # ARM-gem5-Intro
-1st project for computer architecture lab<br/>
+
 <img src=images/gem5-logo.png width=900 height=600/>
 
 
